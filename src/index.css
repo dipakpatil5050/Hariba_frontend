@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media screen and (max-width: 390px) {
+  nav button {
+    display: flex;
+    align-items: center !important;
+    justify-content: space-between;
+  }
+
+  .logo {
+    margin: 0rem;
+    margin-left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+/* * {
+  font-family: "Montserrat";
+} */
+
+.slick-slide img {
+  margin: auto;
+  /* margin-right: 0; */
+  /* margin-left: 90px; */
+  width: 99vw;
+  height: 95%;
+  margin-top: 3px;
+  overflow: hidden;
+}
+
+/* .card {
+  background-image: url(https://haribadairyfarm.com/cdn/shop/files/fpoint711_1880x.jpg?v=1690267317);
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: 0.3s;
+} */
+
+.imgslider {
+  width: 100%;
+  height: 100%;
+}
+
+.underline-hover:hover {
+  text-decoration: underline;
+}
+
+/* @media screen and (max-width: 390px) {
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 30%;
+  }
+} */
+
+* {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #222222;
+}
